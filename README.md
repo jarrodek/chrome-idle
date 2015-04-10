@@ -26,7 +26,11 @@ The details object will have "state" key with either "active", "idle", or "locke
 
 ### state event
 Fired when a iddle state has been determined by querying it's state.
-Detail's "state" key will have a value: "locked" if the system is locked, "idle" if the user has not generated any input for a specified number of seconds, or "active" otherwise.
+
+Detail's "state" key will have a value: 
+* "locked" if the system is locked, 
+* "idle" if the user has not generated any input for a specified number of seconds, or 
+* "active" otherwise.
 
 ### interval
 Threshold, in seconds, used to determine when the system is in an idle state.
