@@ -1,0 +1,25 @@
+{
+  "name": "chrome-idle",
+  "version": "1.0.0",
+  "license": "LICENSE.txt",
+  "description": "A Chrome idle API in a web component.",
+  "authors": [
+    "Pawel Psztyc"
+  ],
+  "homepage": "https://github.com/jarrodek/chrome-idle",
+  "keywords": [
+    "webcomponents", "polymer", "chrome-apps", "chrome"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jarrodek/chrome-idle.git"
+  },
+  "private": false,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  },
+  "ignore": [
+    "externs/**",
+    ".gitignore"
+  ]
+}
